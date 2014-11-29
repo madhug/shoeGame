@@ -2,10 +2,24 @@
 <html>
   <head>
     <title>{{ title }}</title>
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_2d.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_anim.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_audio.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_input.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_scenes.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_sprites.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_tmx.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_touch.js"></script>
+    <script src="/javascripts/Quintus/lib/quintus_ui.js"></script>
+
+    <script src="/javascripts/gameLogic.js"></script>
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    
   </body>
 </html>
